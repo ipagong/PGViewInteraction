@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0402338554C707BBAC5EBDE2950F5861 /* UIView+PGViewInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94967294DB9F578A57A2E6D202C32B01 /* UIView+PGViewInteraction.swift */; };
+		34FD741976569DB3378A1DCD5CC87459 /* Pods-PGViewInteraction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D41B4D48CEC23699DBC93570BD39C18B /* Pods-PGViewInteraction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		491D56AF257F8DB09C31F103F746AFD0 /* Pods-PGViewInteraction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8A7C653E086E35595B3365F94CA3A5 /* Pods-PGViewInteraction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		777B2398BE6FBE8593E07CB4DF4F1079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD78C6F0007BE34F66152AD0C9D856BD /* Pods-PGViewInteraction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A60794C8FC282FF61FF05D8E8C75861 /* Pods-PGViewInteraction_Tests-dummy.m */; };
+		C0AEA64AD5AC3D84E6EDA203F7005DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C89E366EE66B6BFDF0E6FC139124C5B8 /* Pods-PGViewInteraction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB8415EE4B214838F26FF35E91C596 /* Pods-PGViewInteraction_Example-dummy.m */; };
+		D358039A12718401D69C5029DD243D1E /* PGViewInteraction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B71319DD34DBA9DE816DD27F837B9D7B /* PGViewInteraction-dummy.m */; };
+		DB488AF8512620FA04EA42E1BA724BFC /* PGViewInteraction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 765AAE49DE137C4E16D2DBA32EF142D9 /* PGViewInteraction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4C3897A40695C9ABC98BFCF55533E2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335E621A837299EF0A0ED4B58A9B77F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDAF19EDEC4CEE558989497842B1931;
+			remoteInfo = PGViewInteraction;
+		};
+		9A2EB696B2174FC7C2E3BDC15E7B0C59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E078C7835BA28DE4AA39D90A59A76055;
+			remoteInfo = "Pods-PGViewInteraction_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000457CD692622F0C1CD7BEAF9A78079 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18D58D05C7E9E3F41CE0789D708905BE /* Pods-PGViewInteraction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PGViewInteraction_Example.modulemap"; sourceTree = "<group>"; };
+		1D224F6C417B3E4E4B8C42C882ADCBE6 /* Pods-PGViewInteraction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGViewInteraction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2950406A9CC6171FC66366D9F0CB327F /* Pods-PGViewInteraction_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGViewInteraction_Example-Info.plist"; sourceTree = "<group>"; };
+		2A852606CE63701F29EDFD8D33745D85 /* Pods-PGViewInteraction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGViewInteraction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4F417A5F96D47956D98321A0709D2F /* PGViewInteraction-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PGViewInteraction-Info.plist"; sourceTree = "<group>"; };
+		37BA6B42FB1733D0A0CA2688F87DD086 /* Pods_PGViewInteraction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGViewInteraction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8A7C653E086E35595B3365F94CA3A5 /* Pods-PGViewInteraction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGViewInteraction_Example-umbrella.h"; sourceTree = "<group>"; };
+		45169287804A8592342435F0A570F51F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		469CDE34DAD12A94FCAD93A427280C5E /* PGViewInteraction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGViewInteraction.debug.xcconfig; sourceTree = "<group>"; };
+		480D1B7B0721364C231766340E248BC4 /* Pods_PGViewInteraction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PGViewInteraction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE7BFDB14795696D87FCC0923EF7F9B /* PGViewInteraction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PGViewInteraction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B44E2738861FEBF8B3B522C7E17B37 /* Pods-PGViewInteraction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGViewInteraction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65A68DEB76E3846DC0F26CF72FFF51FF /* Pods-PGViewInteraction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGViewInteraction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B01B6D66BA16FEF7504D17AAF30803F /* Pods-PGViewInteraction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PGViewInteraction_Tests.modulemap"; sourceTree = "<group>"; };
+		71048E7E71116475EC92D2F3784ABF7B /* PGViewInteraction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGViewInteraction.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		765AAE49DE137C4E16D2DBA32EF142D9 /* PGViewInteraction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGViewInteraction-umbrella.h"; sourceTree = "<group>"; };
+		81BF68089740E2B42A45D9890ECB4128 /* PGViewInteraction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGViewInteraction-prefix.pch"; sourceTree = "<group>"; };
+		8ABB8415EE4B214838F26FF35E91C596 /* Pods-PGViewInteraction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGViewInteraction_Example-dummy.m"; sourceTree = "<group>"; };
+		94967294DB9F578A57A2E6D202C32B01 /* UIView+PGViewInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+PGViewInteraction.swift"; path = "PGViewInteraction/Classes/UIView+PGViewInteraction.swift"; sourceTree = "<group>"; };
+		9A60794C8FC282FF61FF05D8E8C75861 /* Pods-PGViewInteraction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PGViewInteraction_Tests-dummy.m"; sourceTree = "<group>"; };
+		9AEACB2882501D5D375E1C5CD6388CEA /* Pods-PGViewInteraction_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PGViewInteraction_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1878938EEF39005ABF5099D49DAAE47 /* PGViewInteraction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PGViewInteraction.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		A88ADE7B4F0641AC8EEA40D8555DA95B /* Pods-PGViewInteraction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PGViewInteraction_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A8940509B1965DF57EB7C55088E23A39 /* Pods-PGViewInteraction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGViewInteraction_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B1EF9AD3863DF01E7EF6BEC29CB35284 /* Pods-PGViewInteraction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGViewInteraction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B68734FC9F0BB4603A778AC84C5F41BE /* Pods-PGViewInteraction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PGViewInteraction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B71319DD34DBA9DE816DD27F837B9D7B /* PGViewInteraction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGViewInteraction-dummy.m"; sourceTree = "<group>"; };
+		CD767C98078B930D8AC95ECDC2A343B7 /* PGViewInteraction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PGViewInteraction.modulemap; sourceTree = "<group>"; };
+		D41B4D48CEC23699DBC93570BD39C18B /* Pods-PGViewInteraction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PGViewInteraction_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FF47BDFD59876317025F1B247F347458 /* Pods-PGViewInteraction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PGViewInteraction_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14A2400CABE12805DD788389FD9E43FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777B2398BE6FBE8593E07CB4DF4F1079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26B81343940CF65B9245497FE4202B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C3897A40695C9ABC98BFCF55533E2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A9E0C0862B6841BC4C11DCA442950D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0AEA64AD5AC3D84E6EDA203F7005DFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FDB715CAB5BF278111036B877C8FF79 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8CC07EF045ECAF77C19E4943EBFB008 /* PGViewInteraction */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		483B0A5E6EBC9DE8D364D714559D80C1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD767C98078B930D8AC95ECDC2A343B7 /* PGViewInteraction.modulemap */,
+				B71319DD34DBA9DE816DD27F837B9D7B /* PGViewInteraction-dummy.m */,
+				2F4F417A5F96D47956D98321A0709D2F /* PGViewInteraction-Info.plist */,
+				81BF68089740E2B42A45D9890ECB4128 /* PGViewInteraction-prefix.pch */,
+				765AAE49DE137C4E16D2DBA32EF142D9 /* PGViewInteraction-umbrella.h */,
+				469CDE34DAD12A94FCAD93A427280C5E /* PGViewInteraction.debug.xcconfig */,
+				71048E7E71116475EC92D2F3784ABF7B /* PGViewInteraction.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PGViewInteraction";
+			sourceTree = "<group>";
+		};
+		4D77C4A816A07A1B20DB96DC398C655E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98044F2200B85643F42E5B0E661A8F52 /* Pods-PGViewInteraction_Example */,
+				D41CC7A0E51A20338698D3DE40C768D7 /* Pods-PGViewInteraction_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		98044F2200B85643F42E5B0E661A8F52 /* Pods-PGViewInteraction_Example */ = {
+			isa = PBXGroup;
+			children = (
+				18D58D05C7E9E3F41CE0789D708905BE /* Pods-PGViewInteraction_Example.modulemap */,
+				B68734FC9F0BB4603A778AC84C5F41BE /* Pods-PGViewInteraction_Example-acknowledgements.markdown */,
+				1D224F6C417B3E4E4B8C42C882ADCBE6 /* Pods-PGViewInteraction_Example-acknowledgements.plist */,
+				8ABB8415EE4B214838F26FF35E91C596 /* Pods-PGViewInteraction_Example-dummy.m */,
+				A88ADE7B4F0641AC8EEA40D8555DA95B /* Pods-PGViewInteraction_Example-frameworks.sh */,
+				2950406A9CC6171FC66366D9F0CB327F /* Pods-PGViewInteraction_Example-Info.plist */,
+				3F8A7C653E086E35595B3365F94CA3A5 /* Pods-PGViewInteraction_Example-umbrella.h */,
+				A8940509B1965DF57EB7C55088E23A39 /* Pods-PGViewInteraction_Example.debug.xcconfig */,
+				B1EF9AD3863DF01E7EF6BEC29CB35284 /* Pods-PGViewInteraction_Example.release.xcconfig */,
+			);
+			name = "Pods-PGViewInteraction_Example";
+			path = "Target Support Files/Pods-PGViewInteraction_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0FDB715CAB5BF278111036B877C8FF79 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CFEF127EC54F59D0DF7F53169DD19CB9 /* Products */,
+				4D77C4A816A07A1B20DB96DC398C655E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEF127EC54F59D0DF7F53169DD19CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE7BFDB14795696D87FCC0923EF7F9B /* PGViewInteraction.framework */,
+				480D1B7B0721364C231766340E248BC4 /* Pods_PGViewInteraction_Example.framework */,
+				37BA6B42FB1733D0A0CA2688F87DD086 /* Pods_PGViewInteraction_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2B4032313300883701A4713F431A301 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45169287804A8592342435F0A570F51F /* LICENSE */,
+				A1878938EEF39005ABF5099D49DAAE47 /* PGViewInteraction.podspec */,
+				000457CD692622F0C1CD7BEAF9A78079 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D41CC7A0E51A20338698D3DE40C768D7 /* Pods-PGViewInteraction_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6B01B6D66BA16FEF7504D17AAF30803F /* Pods-PGViewInteraction_Tests.modulemap */,
+				59B44E2738861FEBF8B3B522C7E17B37 /* Pods-PGViewInteraction_Tests-acknowledgements.markdown */,
+				65A68DEB76E3846DC0F26CF72FFF51FF /* Pods-PGViewInteraction_Tests-acknowledgements.plist */,
+				9A60794C8FC282FF61FF05D8E8C75861 /* Pods-PGViewInteraction_Tests-dummy.m */,
+				9AEACB2882501D5D375E1C5CD6388CEA /* Pods-PGViewInteraction_Tests-Info.plist */,
+				D41B4D48CEC23699DBC93570BD39C18B /* Pods-PGViewInteraction_Tests-umbrella.h */,
+				2A852606CE63701F29EDFD8D33745D85 /* Pods-PGViewInteraction_Tests.debug.xcconfig */,
+				FF47BDFD59876317025F1B247F347458 /* Pods-PGViewInteraction_Tests.release.xcconfig */,
+			);
+			name = "Pods-PGViewInteraction_Tests";
+			path = "Target Support Files/Pods-PGViewInteraction_Tests";
+			sourceTree = "<group>";
+		};
+		E8CC07EF045ECAF77C19E4943EBFB008 /* PGViewInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				94967294DB9F578A57A2E6D202C32B01 /* UIView+PGViewInteraction.swift */,
+				D2B4032313300883701A4713F431A301 /* Pod */,
+				483B0A5E6EBC9DE8D364D714559D80C1 /* Support Files */,
+			);
+			name = PGViewInteraction;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29AEE267CE4E6046240477FD1E686A13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FD741976569DB3378A1DCD5CC87459 /* Pods-PGViewInteraction_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5277D3C8DBD63161A4D5FEC0ED592871 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491D56AF257F8DB09C31F103F746AFD0 /* Pods-PGViewInteraction_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABCAF6F4E854DCE1482EC048E6668E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB488AF8512620FA04EA42E1BA724BFC /* PGViewInteraction-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		939E9A49F5626E78DB353105B7D4983E /* Pods-PGViewInteraction_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1C6A3C5A2F7EC7E220144928EA8877 /* Build configuration list for PBXNativeTarget "Pods-PGViewInteraction_Tests" */;
+			buildPhases = (
+				29AEE267CE4E6046240477FD1E686A13 /* Headers */,
+				12043752B9F2ACA1BF934BCBEFC8BA76 /* Sources */,
+				26B81343940CF65B9245497FE4202B62 /* Frameworks */,
+				C33459B39422528C4E01EA8B8D959177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F9CFCF6629F10FAF227A03CB5E6F4B /* PBXTargetDependency */,
+			);
+			name = "Pods-PGViewInteraction_Tests";
+			productName = "Pods-PGViewInteraction_Tests";
+			productReference = 37BA6B42FB1733D0A0CA2688F87DD086 /* Pods_PGViewInteraction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDDAF19EDEC4CEE558989497842B1931 /* PGViewInteraction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8923D5A852DEB9B9DF66CE73BFB81CAB /* Build configuration list for PBXNativeTarget "PGViewInteraction" */;
+			buildPhases = (
+				8ABCAF6F4E854DCE1482EC048E6668E2 /* Headers */,
+				4235CB0E17B4FA2EBC3A1CDFA459C0A4 /* Sources */,
+				14A2400CABE12805DD788389FD9E43FA /* Frameworks */,
+				A02BBEB124C01016BF7F05AD8DEB6A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGViewInteraction;
+			productName = PGViewInteraction;
+			productReference = 4CE7BFDB14795696D87FCC0923EF7F9B /* PGViewInteraction.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E078C7835BA28DE4AA39D90A59A76055 /* Pods-PGViewInteraction_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 677B7CF665F0890E3FB99047001AE40B /* Build configuration list for PBXNativeTarget "Pods-PGViewInteraction_Example" */;
+			buildPhases = (
+				5277D3C8DBD63161A4D5FEC0ED592871 /* Headers */,
+				C50D0EE4661B7F5DFB9681A3187E7431 /* Sources */,
+				6A9E0C0862B6841BC4C11DCA442950D5 /* Frameworks */,
+				450D5036DD5E0A57088DFDB271AE672D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0930B0ACE76DE58A02263A49F79FECBE /* PBXTargetDependency */,
+			);
+			name = "Pods-PGViewInteraction_Example";
+			productName = "Pods-PGViewInteraction_Example";
+			productReference = 480D1B7B0721364C231766340E248BC4 /* Pods_PGViewInteraction_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CFEF127EC54F59D0DF7F53169DD19CB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDAF19EDEC4CEE558989497842B1931 /* PGViewInteraction */,
+				E078C7835BA28DE4AA39D90A59A76055 /* Pods-PGViewInteraction_Example */,
+				939E9A49F5626E78DB353105B7D4983E /* Pods-PGViewInteraction_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450D5036DD5E0A57088DFDB271AE672D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02BBEB124C01016BF7F05AD8DEB6A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33459B39422528C4E01EA8B8D959177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12043752B9F2ACA1BF934BCBEFC8BA76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD78C6F0007BE34F66152AD0C9D856BD /* Pods-PGViewInteraction_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4235CB0E17B4FA2EBC3A1CDFA459C0A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D358039A12718401D69C5029DD243D1E /* PGViewInteraction-dummy.m in Sources */,
+				0402338554C707BBAC5EBDE2950F5861 /* UIView+PGViewInteraction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50D0EE4661B7F5DFB9681A3187E7431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89E366EE66B6BFDF0E6FC139124C5B8 /* Pods-PGViewInteraction_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0930B0ACE76DE58A02263A49F79FECBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGViewInteraction;
+			target = BDDAF19EDEC4CEE558989497842B1931 /* PGViewInteraction */;
+			targetProxy = 335E621A837299EF0A0ED4B58A9B77F4 /* PBXContainerItemProxy */;
+		};
+		48F9CFCF6629F10FAF227A03CB5E6F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PGViewInteraction_Example";
+			target = E078C7835BA28DE4AA39D90A59A76055 /* Pods-PGViewInteraction_Example */;
+			targetProxy = 9A2EB696B2174FC7C2E3BDC15E7B0C59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0492355D525E8D9E8BED4B0676BECC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8940509B1965DF57EB7C55088E23A39 /* Pods-PGViewInteraction_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGViewInteraction_Example/Pods-PGViewInteraction_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGViewInteraction_Example/Pods-PGViewInteraction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		25DCF9ADF2EF8F5C8D5DDC86F51F18E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1EF9AD3863DF01E7EF6BEC29CB35284 /* Pods-PGViewInteraction_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGViewInteraction_Example/Pods-PGViewInteraction_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGViewInteraction_Example/Pods-PGViewInteraction_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		892A9000A229142B784C3603F0A3CC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 469CDE34DAD12A94FCAD93A427280C5E /* PGViewInteraction.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGViewInteraction/PGViewInteraction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGViewInteraction/PGViewInteraction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGViewInteraction/PGViewInteraction.modulemap";
+				PRODUCT_MODULE_NAME = PGViewInteraction;
+				PRODUCT_NAME = PGViewInteraction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5F17FD719FB5E16B39A691F6DE85E1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71048E7E71116475EC92D2F3784ABF7B /* PGViewInteraction.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGViewInteraction/PGViewInteraction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGViewInteraction/PGViewInteraction-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PGViewInteraction/PGViewInteraction.modulemap";
+				PRODUCT_MODULE_NAME = PGViewInteraction;
+				PRODUCT_NAME = PGViewInteraction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DA07A2B99F2D44B46964E46C5714F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF47BDFD59876317025F1B247F347458 /* Pods-PGViewInteraction_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGViewInteraction_Tests/Pods-PGViewInteraction_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGViewInteraction_Tests/Pods-PGViewInteraction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9B345F05A01C5CF36C2C1959D6BFC3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A852606CE63701F29EDFD8D33745D85 /* Pods-PGViewInteraction_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PGViewInteraction_Tests/Pods-PGViewInteraction_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PGViewInteraction_Tests/Pods-PGViewInteraction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1C6A3C5A2F7EC7E220144928EA8877 /* Build configuration list for PBXNativeTarget "Pods-PGViewInteraction_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B345F05A01C5CF36C2C1959D6BFC3F /* Debug */,
+				DA07A2B99F2D44B46964E46C5714F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		677B7CF665F0890E3FB99047001AE40B /* Build configuration list for PBXNativeTarget "Pods-PGViewInteraction_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0492355D525E8D9E8BED4B0676BECC7B /* Debug */,
+				25DCF9ADF2EF8F5C8D5DDC86F51F18E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8923D5A852DEB9B9DF66CE73BFB81CAB /* Build configuration list for PBXNativeTarget "PGViewInteraction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892A9000A229142B784C3603F0A3CC7A /* Debug */,
+				B5F17FD719FB5E16B39A691F6DE85E1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module PGViewInteraction {
+  umbrella header "PGViewInteraction-umbrella.h"
+
+  export *
+  module * { export * }
+}

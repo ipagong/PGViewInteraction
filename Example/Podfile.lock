@@ -1,0 +1,16 @@
+PODS:
+  - PGViewInteraction (0.1.0)
+
+DEPENDENCIES:
+  - PGViewInteraction (from `../`)
+
+EXTERNAL SOURCES:
+  PGViewInteraction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PGViewInteraction: 6511caef0074ff163100ac51707576b062c9055d
+
+PODFILE CHECKSUM: 158b22d0c5f4ab5926c9be84267e7d2ef224f399
+
+COCOAPODS: 1.10.1

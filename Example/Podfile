@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PGViewInteraction_Example' do
+  pod 'PGViewInteraction', :path => '../'
+
+  target 'PGViewInteraction_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
